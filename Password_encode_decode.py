@@ -12,7 +12,7 @@ def encode(password):
 
 # def decode(password):
 #
-#     decoded_password = []  # List to hold the decoded characters
+#     decoded_password = []  # Create empty list
 #     for char in password:
 #         if char.isdigit():
 #             # Subtract 3 from the digit and wrap around using modulo 10
