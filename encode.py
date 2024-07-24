@@ -1,6 +1,7 @@
 
 
-def encode(password):
+
+def encode(password): #
     # return ''.join(str((int(char) + 3) % 10) for char in password)
     encoded_password = []  # Create empty list
     for char in password:
