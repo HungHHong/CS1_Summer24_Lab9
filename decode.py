@@ -1,9 +1,7 @@
 '''
 implement your decode function here
 '''
-'''
-implement your decode function here
-'''
+
 def decode(password):
     list_password = list(password)
     password2 = []
