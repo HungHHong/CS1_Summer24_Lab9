@@ -1,6 +1,17 @@
 '''
 implement your decode function here
 '''
+'''
+implement your decode function here
+'''
+def decode(password):
+    list_password = list(password)
+    password2 = []
+    for i in range(len(list_password)):
+        i_tmp = str(int(list_password[i]) - 3)
+        password2.append(i_tmp)
+        x = "".join(password2)
+    return(x)
 
 
 
